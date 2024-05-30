@@ -1,5 +1,12 @@
 New Learning in LLM
 
+
+INTRODUCTION:
+useful tips for using LLM model
+
+
+
+
 VL Models Research:
 - Yi-6B
 - xgen-mm-phi3-mini-base-r-v1
