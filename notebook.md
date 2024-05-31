@@ -7,10 +7,25 @@ useful tips for using LLM model
 
 
 
-VL Models Research:
-- Yi-6B
-- xgen-mm-phi3-mini-base-r-v1
-- cogVLM2
+# VL Models Research:
+## - Yi-6B
+### Company: 01-ai
+### Download: 16g/Completed
+### Happy Path: Failed maybe cuz by the GPU storage
+## xgen-mm-phi3-mini-base-r-v1
+### Company: Salesforce
+### Download: 20g/Completed
+### Happy Path: not start
+## cogVLM2
+### Company: THUDM
+### Download: 40g/not start
+### Happy Path: not start
+## OpenGVLab/Mini-InternVL-Chat-2B-V1-5
+### Company: OpenGVLab，Shanghai
+### Download: 4g/ongoing
+### Happy Path: not start
+
+
 
 # # Yi-6b
 
