@@ -9,9 +9,9 @@ useful tips for using LLM model
 
 # VL Models Research:
 ## - Yi-6B
-### Company: 01-ai
-### Download: 16g/Completed
-### Happy Path: Failed maybe cuz by the GPU storage
+**Company: 01-ai
+Download: 16g/Completed
+Happy Path: Failed maybe cuz by the GPU storage**
 ## xgen-mm-phi3-mini-base-r-v1
 ### Company: Salesforce
 ### Download: 20g/Completed
@@ -27,7 +27,7 @@ useful tips for using LLM model
 
 
 
-# # Yi-6b
+## Yi-6b
 
 **Run a Demo for the Model**
     open anaconda environment
@@ -39,7 +39,7 @@ useful tips for using LLM model
 05/22 errors in model, need check the version of pytorch, 2.30, for CUDA?
 05/30 errors, You can't move a model that has some modules offloaded to cpu or disk. I think reason is the GPU limitation on my laptop
 
-xgen-mm-phi3-mini-base-r-v1
+## xgen-mm-phi3-mini-base-r-v1
 
 introduction:
 -  pretrained foundation model: xgen-mm-phi3-mini-base-r-v1 (5b parameters)
