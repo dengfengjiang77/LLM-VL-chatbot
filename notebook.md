@@ -48,6 +48,34 @@ introduction:
 
 
 
+## OpenGVLab/Mini-InternVL-Chat-2B-V1-5
+
+introduction:
+- Adopted the same model architecture as InternVL 1.5. We simply replaced the original InternViT-6B with InternViT-300M and InternLM2-Chat-20B with InternLM2-Chat-1.8B / Phi-3-mini-128k-instruct
+
+image dealing process:
+- 图像加载并转换为RGB模式。
+- 创建图像预处理流水线。
+- 动态切块处理图像，将图像分割成多个小块。
+- 对每个图像块应用预处理流水线，进行调整大小、转换为张量和标准化。
+- 将预处理后的图像块堆叠成一个张量。
+
+
+
+## Qwen/Qwen1.5-1.8B
+
+introduction:
+Qwen1.5 is the beta version of Qwen2, a transformer-based decoder-only language model pretrained on a large amount of data. 
+
+
+
+Others:
+- Smaller language models: such as Gemma-2B, Qwen1.8B, and InternLM2-1.8B
+- LM deploy : a tool/framework , what's LMdeply, how to use it
+- SFT - Supervised Fine-Tuning - 监督微调
+
+
+
 
 Useful command:
     $activate xxx       # activate in anaconda environment
