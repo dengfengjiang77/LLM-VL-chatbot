@@ -85,3 +85,9 @@ embedding模型：bge-large-zh-v1.5 m3e
 re-rank模型：bge-reranker-larger
 效果评估工具：trulens
 
+
+
+
+
+
+

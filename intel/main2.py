@@ -9,9 +9,9 @@ import gradio as gr
 
 
 # 从llama_index库导入HuggingFaceEmbedding类，用于将文本转换为向量表示
-# from llama_index.core.embeddings import HuggingFaceEmbedding
+from llama_index.core.embeddings import HuggingFaceEmbedding
 # 从llama_index库导入ChromaVectorStore类，用于高效存储和检索向量数据
-#from llama_index.core.embeddings import ChromaVectorStore
+from llama_index.core.embeddings import ChromaVectorStore
 # 从llama_index库导入PyMuPDFReader类，用于读取和解析PDF文件内容
 from llama_index.readers.file import PyMuPDFReader
 # 从llama_index库导入NodeWithScore和TextNode类
